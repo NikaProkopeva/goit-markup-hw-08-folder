@@ -1,0 +1,27 @@
+.footer-contacts {
+  font-style: normal;
+  margin-top: 20px;
+  margin-bottom: 9px;
+
+  & > .link:nth-child(-n + 2) {
+    margin-bottom: 9px;
+  }
+}
+
+.footer-contacts__mail {
+  transition: color 250ms var(--timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.footer-contacts__tel {
+  transition: color 250ms var(--timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}

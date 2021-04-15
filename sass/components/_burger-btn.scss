@@ -1,0 +1,19 @@
+.burger-btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  fill: var(--secondary-text-color);
+
+  cursor: pointer;
+  transition: fill 250ms var(--timing-function);
+
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
+}
+@media screen and (min-width: 768px) {
+  .burger-btn {
+    display: none;
+  }
+}
